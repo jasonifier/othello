@@ -33,6 +33,14 @@ class GameBoard(object):
         self.grid[3][3] = self.black_piece
         self.grid[4][4] = self.black_piece
 
+    def get_possible_flanks(self):
+        '''
+        Retrieve the possible flanks on the board for
+        the current player.  These are the only possible
+        moves available for any player at any time.
+        These update at the start of every turn.
+        '''
+        return None      
 
 class Player(object):
     
@@ -54,71 +62,57 @@ class Player(object):
             print(e, 'Not a GameBoard.')
              
     def make_move(self):
-        # handle TypeError Value Error with user input
+        # handle TypeError ValueError with user input
         r = input('Enter row num to place piece: ')
         c = input('Enter col num to place piece: ')
         self.game_board.grid[int(r)][int(c)] = self.color
 
+class Othello(object):
+    
+    def __init__(self, game_board, player_one, player_two):
+        self.p1 = player_one
+        self.p2 = player_two
+        self.game_board = game_board
+        self.mover = None
 
-g = GameBoard()
-g.prepare()
-g.display()
-p1 = Player(g, move_first=True)
-p2 = Player(g, move_first=False)
-print(p1.turn)
-print(p2.turn)
-p1.make_move()
-p1.see_board()
-p2.see_board()
-p2.make_move()
-p2.see_board()
-p1.see_board()
-#def print_board():
-#    for i,row in enumerate(game_board):
-#        row_num = 'Row ' + str(i) + ' ->'
-#        print(row_num, row)
+    def play(self):
+        '''
+        Initiate game play of Othello with one gameboard and 2 players.
+        '''
+        for _ in range(6):
+            # play a sample round where each player
+            # gets three turns to place pieces on the board
+            self.start_turn()
+            self.game_board.display()
+            self.mover.make_move()
+            self.switch_turn()
+    
+    def start_turn(self):
+        if self.p1.turn:
+            self.mover = self.p1
+        else:
+            self.mover = self.p2
+        self.display_current_active_player()
 
-#flank_collect = []
+    def switch_turn(self):
+        if self.p1.turn:
+            self.p1.turn = 0
+            self.p2.turn = 1
+        else:
+            self.p2.turn = 0
+            self.p1.turn = 1
 
-#def lateral_flank(p,r,c):
-#    global flank_collect
-#    while True:
-#        c += 1
-#        if game_board[r][c] == 2:
-#            flank_collect.append((r,c))
-#        else:
-#            break
-#
-#def flip_pieces(flanks, p):
-#    for r,c in flanks:
-#        game_board[r][c] = p
-#    
-#def move(p):
-#    global game_board
-#    r = int(input("Enter row: "))
-#    c = int(input("Enter column: "))
-#    if game_board[r][c] == 0:
-#        game_board[r][c] = p
-#    lateral_flank(p,r,c)
-#    flip_pieces(flank_collect,p)
-#    return print_board()
-#
-#game_board=list()
-#for i in range(8):
-#    game_board.append(list())
-#for i in range(8):
-#    for j in range(8):
-#        game_board[i].append(0)
-#print_board()
-#print()
-#
-#game_board[3][3] = 1
-#game_board[3][4] = 2
-#game_board[4][3] = 2
-#game_board[4][4] = 1
+    def display_current_active_player(self):
+        if self.mover == self.p1:
+            print('\nTURN: PLAYER ONE\n')
+        else:
+            print('\nTURN: PLAYER TWO\n')
 
-#print_board()
 
-#result = move(1)
-#print(result)
-#print(flank_collect)
+if __name__ == '__main__':
+    g = GameBoard()
+    g.prepare()
+    p1 = Player(g, move_first=True)
+    p2 = Player(g, move_first=False)
+    othello = Othello(g, p1, p2)
+    othello.play()
