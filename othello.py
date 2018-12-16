@@ -42,6 +42,14 @@ class GameBoard(object):
         '''
         return None      
 
+    def get_grid_map(self):
+        grid_map = {}
+        for i, row in enumerate(self.grid):
+            loc_val_map = {(i,j): value for j, value in enumerate(row) if value != '_'}
+            grid_map.update(loc_val_map)
+        return grid_map
+    
+
 class Player(object):
     
     def __init__(self, game_board, move_first=None):
@@ -66,6 +74,7 @@ class Player(object):
         r = input('Enter row num to place piece: ')
         c = input('Enter col num to place piece: ')
         self.game_board.grid[int(r)][int(c)] = self.color
+
 
 class Othello(object):
     
@@ -116,3 +125,4 @@ if __name__ == '__main__':
     p2 = Player(g, move_first=False)
     othello = Othello(g, p1, p2)
     othello.play()
+    print(g.get_grid_map())
