@@ -45,10 +45,61 @@ class GameBoard(object):
     def get_grid_map(self):
         grid_map = {}
         for i, row in enumerate(self.grid):
-            loc_val_map = {(i,j): value for j, value in enumerate(row) if value != '_'}
+            loc_val_map = {(i,j): value for j, value in enumerate(row)}
             grid_map.update(loc_val_map)
         return grid_map
-    
+
+    def get_diagonals(self):
+        diagonals = []
+        grid_map = self.get_grid_map()
+        main_diagonal = {(x, y): grid_map[(x, y)] for x, y in grid_map.keys() if x == y}
+        diagonals.append(main_diagonal)
+
+        other_diagonals = []
+        more_diagonals = ['above_main','below_main']
+        for diag_type in more_diagonals:
+            var_start = 1
+            anchor_range = range(0,8)
+            above_main = []
+            while var_start <= 7:
+                var = copy(var_start)
+                curr_diagonal = {}
+                for k in anchor_range:
+                    try:
+                        if diag_type == 'above_main':
+                            curr_diagonal.update({(k, var): grid_map[(k, var)]})
+                        elif diag_type == 'below_main':
+                            curr_diagonal.update({(var, k): grid_map[(var, k)]})
+                        else:
+                            raise ValueError('Not a correct diagonal identified on the gameboard.')
+                    except KeyError:
+                        pass
+                    finally:
+                        var += 1
+                other_diagonals.append(curr_diagonal)
+                var_start += 1
+        diagonals.extend(other_diagonals)
+
+        return diagonals                                   
+
+    def get_axis(self, direction=None):
+        if direction is None or not direction in ['horizontal','vertical']:
+            raise ValueError('Use a valid pov (point-of-view) as in "vertical" or "horizontal"')
+        axis = []
+        grid_map = self.get_grid_map()
+        anchor_range = range(0,8)
+        for label in anchor_range:
+            var_range = range(0,8)
+            curr_section = {}
+            for v in var_range:
+                if direction == 'horizontal':
+                    curr_section.update({(label, v): grid_map[(label, v)]})
+                if direction == 'vertical':
+                    curr_section.update({(v, label): grid_map[(v, label)]})
+            axis.append(curr_section)
+        
+        return axis
+                   
 
 class Player(object):
     
@@ -126,3 +177,13 @@ if __name__ == '__main__':
     othello = Othello(g, p1, p2)
     othello.play()
     print(g.get_grid_map())
+    print()
+    print(len(g.get_diagonals()))
+    diag_set = g.get_diagonals()
+    for d in diag_set:
+        print(d)
+    print()
+    print(len(g.get_axis(direction='horizontal')))
+    print(g.get_axis(direction='horizontal'))
+    print(len(g.get_axis(direction='vertical')))
+    print(g.get_axis(direction='vertical'))
