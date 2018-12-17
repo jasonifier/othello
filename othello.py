@@ -84,7 +84,7 @@ class GameBoard(object):
 
     def get_axis(self, direction=None):
         if direction is None or not direction in ['horizontal','vertical']:
-            raise ValueError('Use a valid pov (point-of-view) as in "vertical" or "horizontal"')
+            raise ValueError('Use a valid direction, as in "vertical" or "horizontal".')
         axis = []
         grid_map = self.get_grid_map()
         anchor_range = range(0,8)
