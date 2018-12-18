@@ -60,7 +60,6 @@ class GameBoard(object):
         for diag_type in more_diagonals:
             var_start = 1
             anchor_range = range(0,8)
-            above_main = []
             while var_start <= 7:
                 var = copy(var_start)
                 curr_diagonal = {}
@@ -81,6 +80,55 @@ class GameBoard(object):
         diagonals.extend(other_diagonals)
 
         return diagonals                                   
+
+    def get_opposite_diagonals(self):
+        diagonals = []
+        grid_map = self.get_grid_map()
+        main_diagonal = {(x, y) : grid_map[(x, y)] for x, y in grid_map.keys() if y == 7 - x}
+        diagonals.append(main_diagonal)
+
+        other_diagonals = []
+        more_diagonals = ['above_main','below_main']
+        for diag_type in more_diagonals:
+            if diag_type == 'above_main':
+                var_start = 6
+                anchor_range = range(0,8)
+            elif diag_type == 'below_main':
+                var_start = 1
+                anchor_range = list(range(0,8))
+                anchor_range.reverse()
+            else:
+                raise ValueError('Not a correct diagonal identified on the gameboard.')
+            while (var_start >= 0 and diag_type == 'above_main') or (var_start <= 7 and diag_type == 'below_main'):
+                var = copy(var_start)
+                curr_diagonal = {}
+                for k in anchor_range:
+                    try:
+                        if diag_type == 'above_main':
+                            curr_diagonal.update({(k, var): grid_map[(k, var)]})
+                        elif diag_type == 'below_main':
+                            curr_diagonal.update({(var, k): grid_map[(var, k)]})
+                        else:
+                            raise ValueError('Not a correct diagonal identified on the gameboard.')
+                    except KeyError:
+                        pass
+                    finally:
+                        if diag_type == 'above_main':
+                            var -= 1
+                        elif diag_type == 'below_main':
+                            var += 1
+                        else:
+                            raise ValueError('Not a correct diagonal identified on the gameboard.')
+                other_diagonals.append(curr_diagonal)
+                if diag_type == 'above_main':
+                    var_start -= 1
+                elif diag_type == 'below_main':
+                    var_start += 1
+                else:
+                    raise ValueError('Not a correct diagonal identified on the gameboard.')
+        diagonals.extend(other_diagonals)
+        
+        return diagonals
 
     def get_axis(self, direction=None):
         if direction is None or not direction in ['horizontal','vertical']:
@@ -176,14 +224,14 @@ if __name__ == '__main__':
     p2 = Player(g, move_first=False)
     othello = Othello(g, p1, p2)
     othello.play()
-    print(g.get_grid_map())
-    print()
     print(len(g.get_diagonals()))
+    print(len(g.get_opposite_diagonals()))
+    opp_diag_set = g.get_opposite_diagonals()
     diag_set = g.get_diagonals()
     for d in diag_set:
         print(d)
+    for d in opp_diag_set:
+        print(d)
     print()
     print(len(g.get_axis(direction='horizontal')))
-    print(g.get_axis(direction='horizontal'))
     print(len(g.get_axis(direction='vertical')))
-    print(g.get_axis(direction='vertical'))
