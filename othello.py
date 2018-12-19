@@ -1,4 +1,6 @@
 from copy import copy
+from operator import itemgetter
+from collections import OrderedDict
 
 class GameBoard(object):
     
@@ -148,6 +150,45 @@ class GameBoard(object):
         
         return axis
                    
+    def _sort_cross_sections(self, sections, use_x=True, use_y=False):
+        cross_sections = []
+        for section in sections:
+            section_list = [(k[0], k[1], v) for k, v in section.items()]
+            if use_x and use_y:
+                raise ValueError('Only allows either use_x OR use_y, not both.')
+            else:
+                if use_x:
+                    section_sorted = sorted(section_list, key=itemgetter(0))
+                elif use_y:
+                    section_sorted = sorted(section_list, key=itemgetter(1))
+                else:
+                    raise ValueError('Identify one argument from use_x or use_y as True, but not both.')
+            cross_section = OrderedDict()
+            for x, y, value in section_sorted:
+                cross_section[(x, y)] = value
+            cross_sections.append(cross_section)
+        return cross_sections            
+
+    def get_cross_sections(self, slice_types=['vertical','horizontal','diagonals','opposite_diagonals']):
+        all_sections = {}
+        for curr_type in slice_types:
+            if curr_type == 'vertical':
+                elements = self.get_axis(direction=curr_type)
+                aligned = self._sort_cross_sections(elements)
+            elif curr_type == 'horizontal':
+                elements = self.get_axis(direction=curr_type)
+                aligned = self._sort_cross_sections(elements, use_x=False, use_y=True)
+            elif curr_type == 'diagonals':
+                elements = self.get_diagonals()
+                aligned = self._sort_cross_sections(elements)
+            elif curr_type == 'opposite_diagonals':
+                elements = self.get_opposite_diagonals()
+                aligned = self._sort_cross_sections(elements)
+            else:
+                raise ValueError('Invalid input for slice_types: not in "vertical", "horizontal", "diagonals", "opposite_diagonals"')
+            all_sections[curr_type] = aligned
+        return all_sections
+
 
 class Player(object):
     
@@ -224,14 +265,10 @@ if __name__ == '__main__':
     p2 = Player(g, move_first=False)
     othello = Othello(g, p1, p2)
     othello.play()
-    print(len(g.get_diagonals()))
-    print(len(g.get_opposite_diagonals()))
-    opp_diag_set = g.get_opposite_diagonals()
-    diag_set = g.get_diagonals()
-    for d in diag_set:
-        print(d)
-    for d in opp_diag_set:
-        print(d)
     print()
-    print(len(g.get_axis(direction='horizontal')))
-    print(len(g.get_axis(direction='vertical')))
+    cross_sections = g.get_cross_sections()
+    for key, section in cross_sections.items():
+        print(key)
+        print(len(section))
+        print(section)
+        print()
