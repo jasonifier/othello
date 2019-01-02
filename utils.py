@@ -1,4 +1,11 @@
-from copy import copy
+
+def index_mapper(ordered_hash_map):
+    keys = list(ordered_hash_map.keys())
+    index_map = {}
+    for i, pair in enumerate(keys):
+        index_map[i] = pair
+    return index_map
+
 
 def set_to_None(n):
     '''
@@ -103,6 +110,7 @@ def flip_pieces(row, index_of_move, color):
     :param index_of_move: int
     :return list:
     '''
+    from copy import copy
     c = CrossSection(row)
     c.place_piece(index_of_move, color)
     shift_right = True

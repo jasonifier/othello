@@ -1,6 +1,11 @@
 from copy import copy
 from operator import itemgetter
 from collections import OrderedDict
+from utils import *
+
+# find_flank_indices(row, color)
+# flip_pieces(row, index_of_move, color)
+# index_mapper(ordered_hash_map)
 
 class GameBoard(object):
     
@@ -50,6 +55,9 @@ class GameBoard(object):
             loc_val_map = {(i,j): value for j, value in enumerate(row)}
             grid_map.update(loc_val_map)
         return grid_map
+    
+    def set_grid_element(self, row_index, col_index, color):
+        self.grid[row_index][col_index] = color
 
     def get_diagonals(self):
         diagonals = []
@@ -214,6 +222,21 @@ class Player(object):
         r = input('Enter row num to place piece: ')
         c = input('Enter col num to place piece: ')
         self.game_board.grid[int(r)][int(c)] = self.color
+        move_coords = (int(r), int(c))
+        cross_sections = self.game_board.get_cross_sections()
+        for k, cross_section in cross_sections.items():
+            for row in cross_section:
+                if move_coords in row:
+                    spaces = list(row.values())
+                    idx_to_pair = index_mapper(row)
+                    for i, pair in idx_to_pair.items():
+                        if move_coords == pair:
+                            move_index = i
+                            break
+                    flipped = flip_pieces(spaces, move_index, self.color)
+                    for idx, piece in enumerate(flipped):
+                        row, col = idx_to_pair[idx]
+                        self.game_board.set_grid_element(row, col, piece)
 
 
 class Othello(object):
@@ -233,6 +256,7 @@ class Othello(object):
             # gets three turns to place pieces on the board
             self.start_turn()
             self.game_board.display()
+            flanks = self.get_flanks()
             self.mover.make_move()
             self.switch_turn()
     
@@ -242,6 +266,21 @@ class Othello(object):
         else:
             self.mover = self.p2
         self.display_current_active_player()
+
+    def get_flanks(self):
+        cross_sections = self.game_board.get_cross_sections()
+        flanks = set()
+        for k, section in cross_sections.items():
+            for row in section:
+                pieces = list(row.values())
+                idx_to_pair = index_mapper(row)
+                flank_chances = find_flank_indices(pieces, self.mover.color)
+                if flank_chances:
+                    pairs = [idx_to_pair[idx] for idx in flank_chances]
+                    for pair in pairs:
+                        flanks.add(pair)
+        print(list(flanks))
+        return list(flanks)
 
     def switch_turn(self):
         if self.p1.turn:
