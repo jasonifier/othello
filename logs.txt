@@ -1,0 +1,2236 @@
+START OF GAME.
+
+MOVE: 1
+PLAYER: ONE
+SECTION
+['_', '_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+
+MOVE: 2
+PLAYER: TWO
+SECTION
+['_', '_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[2]
+
+MOVE: 3
+PLAYER: ONE
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[1]
+
+MOVE: 4
+PLAYER: TWO
+SECTION
+['_', '_', 0, 0, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[4]
+
+MOVE: 5
+PLAYER: ONE
+SECTION
+['_', '_', 0, 0, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 0, 1, 1, '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 0, '_', '_']
+FLANKS
+[4]
+
+MOVE: 6
+PLAYER: TWO
+SECTION
+['_', '_', 1, 0, 1, '_', '_', '_']
+FLANKS
+[1, 5]
+SECTION
+['_', '_', '_', 1, 0, 0, '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 0, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 1, 0, '_', '_']
+FLANKS
+[1]
+
+MOVE: 7
+PLAYER: ONE
+SECTION
+['_', 0, 1, '_', '_', 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', '_', 1, 0, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', '_', 0, 1, 1, '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 1, 0, '_', '_']
+FLANKS
+[4]
+
+MOVE: 8
+PLAYER: TWO
+SECTION
+['_', 0, 1, '_', '_', 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 0, 1, '_', '_', '_']
+FLANKS
+[1, 5]
+SECTION
+['_', 0, 0, 1, '_', '_', '_']
+FLANKS
+[0]
+
+MOVE: 9
+PLAYER: ONE
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 0, 0, 0, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 0, 0, 1, '_', '_', '_']
+FLANKS
+[0]
+
+MOVE: 10
+PLAYER: TWO
+SECTION
+['_', 1, 0, '_', '_', 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 1, 0, '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[5]
+
+MOVE: 11
+PLAYER: ONE
+SECTION
+['_', 1, 0, '_', '_', 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 1, '_', '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 1, 1, 1, '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 1, '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 1, '_']
+FLANKS
+[1]
+
+MOVE: 12
+PLAYER: TWO
+SECTION
+['_', 1, 0, '_', '_', 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 0, 0, 0, 1, 1, '_', '_']
+FLANKS
+[0, 6]
+SECTION
+['_', 1, 0, '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 1, 0, 1, '_', '_', '_']
+FLANKS
+[4]
+
+MOVE: 13
+PLAYER: ONE
+SECTION
+['_', 1, 0, '_', '_', 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 0, 0, 1, 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', '_', 1, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, '_']
+FLANKS
+[0]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 1, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 0, 0, 0, '_', '_']
+FLANKS
+[5]
+
+MOVE: 14
+PLAYER: TWO
+SECTION
+['_', '_', 1, 0, 1, '_', '_', '_']
+FLANKS
+[1, 5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', '_', 1, 0, 1, 1, '_']
+FLANKS
+[2, 7]
+SECTION
+['_', '_', '_', 1, 1, 0, '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 0, 1, 1, '_', '_']
+FLANKS
+[1, 6]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+
+MOVE: 15
+PLAYER: ONE
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 0, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 1, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+
+MOVE: 16
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 0, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, 1, '_', '_']
+FLANKS
+[1, 6]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+
+MOVE: 17
+PLAYER: ONE
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 1, 0, '_']
+FLANKS
+[5]
+
+MOVE: 18
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 0, 0, 0, 1, '_']
+FLANKS
+[7]
+SECTION
+['_', '_', 1, 1, 0, 1, '_', '_']
+FLANKS
+[1, 6]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 1, 0, 1, '_']
+FLANKS
+[6]
+
+MOVE: 19
+PLAYER: ONE
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 0, 0, 0, 1, '_']
+FLANKS
+[1]
+SECTION
+['_', '_', 1, 1, 0, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+
+MOVE: 20
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 0, 1, 0, 0, 1, '_']
+FLANKS
+[7]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 1, 0, 1, '_']
+FLANKS
+[6]
+
+MOVE: 21
+PLAYER: ONE
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', '_', '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', '_', 0, 1, 0, 0, 0, 0]
+FLANKS
+[1]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+
+MOVE: 22
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', '_', 1, 0, 1, '_', '_']
+FLANKS
+[2, 6]
+SECTION
+['_', 1, 1, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 1, 0, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, 1]
+FLANKS
+[1]
+
+MOVE: 23
+PLAYER: ONE
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', '_', 0, 1, 0, 0, 0, 1]
+FLANKS
+[1]
+SECTION
+['_', 1, 0, 1, 0, '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 0, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 0, 1, 0, 1]
+FLANKS
+[1]
+SECTION
+['_', 0, 1, 1, 1]
+FLANKS
+[0]
+
+MOVE: 24
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, 0, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', '_', 1, 0, 1, '_', '_']
+FLANKS
+[2, 6]
+SECTION
+[1, 1, 1, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', '_', 1, 0, 1, 1, 1]
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 0, 1, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+['_', 1, 0, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 0, 0, 1, '_']
+FLANKS
+[6]
+
+MOVE: 25
+PLAYER: ONE
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', 1, 0, 0, 0, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+[1, 1, 0, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, '_', 1, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[1, 1, 1, 1, 0, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 0, 1, 0, 0, 0, 1]
+FLANKS
+[1]
+SECTION
+['_', 0, 0, 0, 1, 1, 1, 1]
+FLANKS
+[0]
+SECTION
+['_', 1, 0, 1, 0, '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 0, 1, 0, 1]
+FLANKS
+[1]
+SECTION
+['_', 1, 0, 1, 1]
+FLANKS
+[0]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+
+MOVE: 26
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 1, '_', 1, 0, 1, '_', '_']
+FLANKS
+[2, 6]
+SECTION
+[1, 1, 1, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 1, 0, 1, '_']
+FLANKS
+[6]
+
+MOVE: 27
+PLAYER: ONE
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', 1, 0, 1, 0, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+[1, 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 0, 1, 0, 0, 0, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', 0, 1, 0, 1]
+FLANKS
+[1]
+
+MOVE: 28
+PLAYER: TWO
+SECTION
+['_', 1, 1, '_', 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[0, 1, '_', 1, 0, 1, '_', '_']
+FLANKS
+[2, 6]
+SECTION
+['_', 1, '_', '_', '_', 1, 0, 1]
+FLANKS
+[4]
+SECTION
+['_', '_', 1, 1, 1, 0, 1, '_']
+FLANKS
+[1, 7]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 1, 0, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 1, 1, 0, 1]
+FLANKS
+[0]
+
+MOVE: 29
+PLAYER: ONE
+SECTION
+['_', 0, 0, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', 0, 1, 0, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+[1, 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 0, 0, 0, 0, 0, 1, '_']
+FLANKS
+[0]
+SECTION
+['_', '_', '_', 0, 1, 1, 1, 1]
+FLANKS
+[2]
+SECTION
+['_', '_', 0, 1, 0, 0, 0, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1]
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', 0, 1, 1, 0, 1]
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1, 1]
+FLANKS
+[0]
+
+MOVE: 30
+PLAYER: TWO
+SECTION
+['_', 1, 0, '_', 0, 1, '_', '_']
+FLANKS
+[0, 6]
+SECTION
+['_', 1, 1, 0, 1, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[0, 1, '_', 1, 0, 1, '_', '_']
+FLANKS
+[2, 6]
+SECTION
+['_', 1, '_', '_', '_', 1, 0, 1]
+FLANKS
+[4]
+SECTION
+[1, 1, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 1, 0, 0, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 1, 1, 1, 0, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 1, 1, 0, 1]
+FLANKS
+[0]
+
+MOVE: 31
+PLAYER: ONE
+SECTION
+['_', 1, 0, '_', 0, 1, '_', '_']
+FLANKS
+[0, 3]
+SECTION
+['_', 1, 1, 0, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+['_', '_', '_', 0, 1, 1, 1, 1]
+FLANKS
+[2]
+SECTION
+['_', '_', 0, 1, 0, 0, 0, 1]
+FLANKS
+[1]
+SECTION
+[0, 1, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1]
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, '_', '_', '_']
+FLANKS
+[2]
+SECTION
+['_', 1, 1, 1, 0, 1]
+FLANKS
+[0]
+
+MOVE: 32
+PLAYER: TWO
+SECTION
+[0, 1, 1, '_', '_', '_', '_', 1]
+FLANKS
+[3]
+SECTION
+[1, 0, 1, '_', '_', '_', 1, '_']
+FLANKS
+[3]
+SECTION
+['_', 1, 0, '_', 0, 1, '_', '_']
+FLANKS
+[0, 6]
+SECTION
+['_', 1, 1, 0, 1, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 1, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[0, 1, '_', 1, 1, 1, '_', '_']
+FLANKS
+[2]
+SECTION
+[0, 1, '_', '_', '_', 1, 0, 1]
+FLANKS
+[2, 4]
+SECTION
+[1, 0, 1, 1, 1, 1, 1, '_']
+FLANKS
+[7]
+SECTION
+[1, 1, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1]
+FLANKS
+[0]
+SECTION
+['_', '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[0, 0, 0, 0, 0, 1, '_', '_']
+FLANKS
+[6]
+
+MOVE: 33
+PLAYER: ONE
+SECTION
+['_', 0, 0, '_', 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', 0, 1, 0, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+[1, 0, '_', 1, 1, 1, '_', '_']
+FLANKS
+[2]
+SECTION
+['_', '_', '_', 0, 1, 1, 1, 1]
+FLANKS
+[2]
+SECTION
+['_', '_', 0, 1, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1]
+FLANKS
+[0]
+SECTION
+[0, '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 0, 1, 1, 1, 1]
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1, 1]
+FLANKS
+[0]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+
+MOVE: 34
+PLAYER: TWO
+SECTION
+[0, 1, 1, '_', '_', '_', '_', 1]
+FLANKS
+[3]
+SECTION
+[1, 0, 1, '_', '_', '_', 1, '_']
+FLANKS
+[3]
+SECTION
+['_', 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[0, 6]
+SECTION
+['_', 0, 1, 1, 1, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 1, '_', '_', '_', 1, 0, 1]
+FLANKS
+[2, 4]
+SECTION
+[1, 1, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 0, 1, 1, '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1]
+FLANKS
+[0]
+SECTION
+[0, '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[0, 0, 0, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[1, 0, 1, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 1, 1, 1, 1]
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1, 1]
+FLANKS
+[0]
+
+MOVE: 35
+PLAYER: ONE
+SECTION
+['_', 0, 1, 1, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+[1, 0, '_', 1, 1, 1, '_', '_']
+FLANKS
+[2]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+[0, '_', 1, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 0, 1, 1, 1]
+FLANKS
+[0]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+
+MOVE: 36
+PLAYER: TWO
+SECTION
+[0, 1, 1, '_', '_', '_', '_', 1]
+FLANKS
+[3]
+SECTION
+[0, 0, 1, '_', '_', '_', 1, '_']
+FLANKS
+[3]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 1, 1, 1, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 0, 1, 1, 0, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+[1, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 1, '_', 1, 1, 1, '_', '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 0, '_', '_', 1, 0, 1]
+FLANKS
+[4]
+SECTION
+[1, 1, 0, 1, 1, 1, '_', 1]
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 1, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 0, 1, 1, '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+[1, '_', 1, 0, '_', '_', '_']
+FLANKS
+[1]
+SECTION
+[0, 0, 0, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 1, 1, 1]
+FLANKS
+[0]
+
+MOVE: 37
+PLAYER: ONE
+SECTION
+['_', 0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 0, 1, 0, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+[1, 0, 0, 0, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 0, 0, 1, 1]
+FLANKS
+[0]
+SECTION
+['_', 0, 0, 1]
+FLANKS
+[0]
+
+MOVE: 38
+PLAYER: TWO
+SECTION
+[0, 1, 1, '_', '_', '_', '_', 1]
+FLANKS
+[3]
+SECTION
+[0, 0, 1, '_', '_', '_', 1, '_']
+FLANKS
+[3]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[0, 6]
+SECTION
+['_', 0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[0, 5]
+SECTION
+[1, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, '_', '_', 1, 0, 1]
+FLANKS
+[4]
+SECTION
+[0, 0, 0, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 0, 0, 1, '_', '_']
+FLANKS
+[4]
+SECTION
+['_', 0, 1, '_']
+FLANKS
+[0]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 0, 1, 1]
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1]
+FLANKS
+[0]
+
+MOVE: 39
+PLAYER: ONE
+SECTION
+['_', 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[0]
+SECTION
+['_', 0, 0, 1, 1]
+FLANKS
+[0]
+SECTION
+['_', 0, 1, 1]
+FLANKS
+[0]
+
+MOVE: 40
+PLAYER: TWO
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[0, 6]
+SECTION
+[1, 1, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, '_', 1, 1, 0, 1]
+FLANKS
+[3]
+SECTION
+[0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 1, 0, 1, '_', '_']
+FLANKS
+[4]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 0, 1, 1]
+FLANKS
+[0]
+SECTION
+[0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[4]
+
+MOVE: 41
+PLAYER: ONE
+
+MOVE: 42
+PLAYER: TWO
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 1, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 0, 1, '_', '_']
+FLANKS
+[4]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[4]
+
+MOVE: 43
+PLAYER: ONE
+SECTION
+[0, 0, 0, '_', '_', 0, 1, '_']
+FLANKS
+[4]
+SECTION
+['_', '_', 0, 1, 1, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+['_', 0, 1, 1, '_', 1, 1, 1]
+FLANKS
+[0]
+SECTION
+[0, '_', 0, 1, '_', '_']
+FLANKS
+[1]
+
+MOVE: 44
+PLAYER: TWO
+SECTION
+[0, 0, 0, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 0, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, '_', 1, 0, 1, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 0, 0, 0, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, '_', 1]
+FLANKS
+[4]
+SECTION
+[0, 0, 0, 0, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, '_', '_', '_']
+FLANKS
+[4]
+SECTION
+[0, '_', 0, 1, '_', '_']
+FLANKS
+[4]
+
+MOVE: 45
+PLAYER: ONE
+SECTION
+[0, '_', 0, 0, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+['_', '_', 0, 0, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 0, '_', '_']
+FLANKS
+[4]
+SECTION
+[0, '_', 0, 1, '_', '_']
+FLANKS
+[1]
+
+MOVE: 46
+PLAYER: TWO
+SECTION
+[0, 0, 0, 1, '_', 1, 1, '_']
+FLANKS
+[4]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', '_', 1, 0, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, '_', 1]
+FLANKS
+[4]
+SECTION
+[0, 0, 0, 1, '_']
+FLANKS
+[4]
+SECTION
+[1, 1, 1, 0, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 0, 1, 0, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 1, 1, 1, '_', '_']
+FLANKS
+[4]
+
+MOVE: 47
+PLAYER: ONE
+SECTION
+[0, 0, 0, 1, 0, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 0, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+['_', '_', 0, 0, 0, 1, 1, 1]
+FLANKS
+[1]
+SECTION
+[1, 1, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 1, 1, 0, '_', '_']
+FLANKS
+[4]
+SECTION
+[1, 1, 1, 0, '_']
+FLANKS
+[4]
+SECTION
+[0, 0, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+
+MOVE: 48
+PLAYER: TWO
+SECTION
+[0, 0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 1, 1, '_', '_']
+FLANKS
+[3]
+
+MOVE: 49
+PLAYER: ONE
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 0, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 1, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 1, 1, 0, 1, 0, 1]
+FLANKS
+[0]
+SECTION
+[1, 0, 1, 0, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+[1, 0, 1, 0, '_', '_']
+FLANKS
+[4]
+SECTION
+[1, 0, 0, 0, '_']
+FLANKS
+[4]
+SECTION
+[1, 0, '_', '_']
+FLANKS
+[2]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 0, 1, 1, 0, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 0, 0, '_']
+FLANKS
+[5]
+
+MOVE: 50
+PLAYER: TWO
+SECTION
+[0, 0, 0, 0, 1, 1, 1, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 1, 1, 1, 1, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 1, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 1, 1, 1, 1, 1, 0, 1]
+FLANKS
+[0]
+SECTION
+[0, 0, 0, 0, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[1, 0, 1, 1, 1, 1, '_']
+FLANKS
+[6]
+SECTION
+[0, 1, 1, '_', '_']
+FLANKS
+[3]
+
+MOVE: 51
+PLAYER: ONE
+SECTION
+[0, 0, 0, 1, 1, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 0, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+['_', 0, 1, 1, 0, 1, 0, 1]
+FLANKS
+[0]
+SECTION
+[1, 0, '_', '_', '_', '_', '_', '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 0, 0, 1, 0, '_']
+FLANKS
+[6]
+SECTION
+[1, 0, 1, 0, '_', '_']
+FLANKS
+[4]
+SECTION
+[1, 0, 0, 0, '_']
+FLANKS
+[4]
+SECTION
+[1, 0, '_', '_']
+FLANKS
+[2]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 0, 1, 1, 0, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 0, 0, '_']
+FLANKS
+[5]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+
+MOVE: 52
+PLAYER: TWO
+SECTION
+['_', 0, 1, 1, 0, 1, 0, 1]
+FLANKS
+[0]
+SECTION
+[0, 0, 1, '_', '_']
+FLANKS
+[3]
+SECTION
+['_', 1, 0, '_']
+FLANKS
+[0]
+
+MOVE: 53
+PLAYER: ONE
+SECTION
+[0, 0, 0, 1, 1, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 1, 0, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[1, 0, 0, '_', 0, '_', 0, '_']
+FLANKS
+[3]
+SECTION
+[1, 0, '_', '_', '_', '_', '_', '_']
+FLANKS
+[2]
+SECTION
+[1, 0, 1, 0, '_', '_']
+FLANKS
+[4]
+SECTION
+[1, 0, 0, 0, '_']
+FLANKS
+[4]
+SECTION
+[1, 0, '_', '_']
+FLANKS
+[2]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 0, 1, 1, 0, '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 1, 1, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 0, 0, '_']
+FLANKS
+[5]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+
+MOVE: 54
+PLAYER: TWO
+SECTION
+[0, 0, 1, '_', '_']
+FLANKS
+[3]
+
+MOVE: 55
+PLAYER: ONE
+SECTION
+[0, 0, 0, 1, 1, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 1, 0, 0, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 0, 0, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[1, 0, 0, 0, 0, '_', 0, 1]
+FLANKS
+[5]
+SECTION
+[1, 0, '_', '_', '_', '_', '_', '_']
+FLANKS
+[2]
+SECTION
+[1, 0, 1, 0, 0, '_']
+FLANKS
+[5]
+SECTION
+[1, 0, 0, 0, '_']
+FLANKS
+[4]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 1, 1, 0, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 0, 0, '_']
+FLANKS
+[5]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+
+MOVE: 56
+PLAYER: TWO
+SECTION
+[0, 0, 0, 0, 1, 0, 1, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 1, '_']
+FLANKS
+[4]
+SECTION
+[0, 0, 1, '_']
+FLANKS
+[3]
+
+MOVE: 57
+PLAYER: ONE
+SECTION
+[0, 0, 0, 1, 0, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 0, 0, 1, 0, '_', '_']
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 0, 0, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[1, 1, 0, 0, 0, '_', 0, 1]
+FLANKS
+[5]
+SECTION
+[1, 1, 1, 0, '_', '_', '_', '_']
+FLANKS
+[4]
+SECTION
+[1, 0, '_']
+FLANKS
+[2]
+SECTION
+[0, 0, 1, 0, 0, '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 0, '_']
+FLANKS
+[4]
+
+MOVE: 58
+PLAYER: TWO
+SECTION
+[1, 1, 0, 1, 1, '_', 0, 1]
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 1, 1, '_', '_']
+FLANKS
+[5]
+SECTION
+[0, 0, 1, 0, 1, '_']
+FLANKS
+[5]
+
+MOVE: 59
+PLAYER: ONE
+SECTION
+[0, 0, 0, 0, 1, 0, '_', 0]
+FLANKS
+[6]
+SECTION
+[0, 0, 0, 0, 0, 1, 0, '_']
+FLANKS
+[7]
+SECTION
+[1, 1, 0, 1, 0, '_', 0, 1]
+FLANKS
+[5]
+SECTION
+[1, 1, 1, 1, 1, 0, '_', '_']
+FLANKS
+[6]
+
+MOVE: 60
+PLAYER: TWO
+SECTION
+[0, 0, 0, 0, 0, 0, 1, '_']
+FLANKS
+[7]
+SECTION
+[0, 0, 1, 1, 1, '_', 1]
+FLANKS
+[5]
+
+MOVE: 61
+PLAYER: ONE
+SECTION
+[0, 0, 0, 0, 1, 0, '_', 1]
+FLANKS
+[6]
+SECTION
+[1, 1, 0, 1, 0, '_', 0, 1]
+FLANKS
+[5]

@@ -217,12 +217,18 @@ class Player(object):
         except AttributeError as e:
             print(e, 'Not a GameBoard.')
              
-    def make_move(self):
+    def make_move(self, flanks):
         # handle TypeError ValueError with user input
-        r = input('Enter row num to place piece: ')
-        c = input('Enter col num to place piece: ')
+        eligible_move = False
+        while not eligible_move:
+            r = input('Enter row num to place piece: ')
+            c = input('Enter col num to place piece: ')
+            move_coords = (int(r), int(c))
+            if move_coords in flanks:
+                eligible_move = True
+            else:
+                print('Select from possible flanks!')
         self.game_board.grid[int(r)][int(c)] = self.color
-        move_coords = (int(r), int(c))
         cross_sections = self.game_board.get_cross_sections()
         for k, cross_section in cross_sections.items():
             for row in cross_section:
@@ -246,26 +252,66 @@ class Othello(object):
         self.p2 = player_two
         self.game_board = game_board
         self.mover = None
+        self.move_count = 0
 
     def play(self):
         '''
         Initiate game play of Othello with one gameboard and 2 players.
         '''
-        for _ in range(6):
-            # play a sample round where each player
-            # gets three turns to place pieces on the board
+        remove_logs()
+        othello_logger('START OF GAME.')
+        while not self._game_over():
             self.start_turn()
             self.game_board.display()
             flanks = self.get_flanks()
-            self.mover.make_move()
-            self.switch_turn()
-    
+            if flanks:
+                self.mover.make_move(flanks)
+            else:
+                print('No flanks for this turn!')
+            self.switch_turn()  
+        self.game_board.display()
+        scores = self.calculate_scores()
+        winner = max(scores.items(), key=itemgetter(1))[0]
+        print('WINNER:', winner) 
+ 
+    def _game_over(self):
+        board_count = 0
+        for hrow in self.game_board.grid:
+            for element in hrow:
+                if element == 0 or element == 1:
+                    board_count += 1
+        if board_count == 64:
+            return True
+        else:
+            return False
+
+    def calculate_scores(self):
+        scores = {'PLAYER ONE': 0, 'PLAYER TWO': 0}
+        for hrow in self.game_board.grid:
+            for element in hrow:
+                if element == 1:
+                    scores['PLAYER ONE'] += 1
+                elif element == 0:
+                    scores['PLAYER TWO'] += 1
+                else:
+                    raise ValueError('Board should only contain boolean values (0 or 1).')
+        return scores
+
     def start_turn(self):
         if self.p1.turn:
             self.mover = self.p1
         else:
             self.mover = self.p2
         self.display_current_active_player()
+        self.move_count += 1
+        log_string = 'MOVE: ' + str(self.move_count)
+        print(log_string)
+        othello_logger('\n' + log_string)
+        if self.p1.turn:
+            othello_logger('PLAYER: ONE')
+        if self.p2.turn:
+            othello_logger('PLAYER: TWO')
+          
 
     def get_flanks(self):
         cross_sections = self.game_board.get_cross_sections()
@@ -304,10 +350,10 @@ if __name__ == '__main__':
     p2 = Player(g, move_first=False)
     othello = Othello(g, p1, p2)
     othello.play()
-    print()
-    cross_sections = g.get_cross_sections()
-    for key, section in cross_sections.items():
-        print(key)
-        print(len(section))
-        print(section)
-        print()
+#    print()
+#    cross_sections = g.get_cross_sections()
+#    for key, section in cross_sections.items():
+#        print(key)
+#        print(len(section))
+#        print(section)
+#        print()

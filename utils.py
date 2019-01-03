@@ -1,4 +1,17 @@
 
+def remove_logs(filename='logs.txt'):
+    import os
+    from pathlib import Path
+
+    if Path(filename).is_file():
+        os.remove(filename)
+
+
+def othello_logger(data, filename='logs.txt'):
+    with open(filename, 'a+') as f:
+        f.write(str(data) + '\n')   
+
+
 def index_mapper(ordered_hash_map):
     keys = list(ordered_hash_map.keys())
     index_map = {}
@@ -58,6 +71,12 @@ def find_flank_indices(row, color):
                 other, open_spot = set_to_None(2)
             else:
                 flanker, other, open_spot = set_to_None(3)
+
+    if list(flank_spots):
+        othello_logger('SECTION')
+        othello_logger(row)
+        othello_logger('FLANKS')
+        othello_logger(list(flank_spots))
 
     return list(flank_spots)
 
@@ -124,7 +143,10 @@ def flip_pieces(row, index_of_move, color):
             shift_right = shift_and_flip_action(c, color, i_right, start)
         if shift_left:
             i_left -= 1
-            shift_left = shift_and_flip_action(c, color, i_left, start)
+            if i_left < 0:
+                shift_left = False
+            else:
+                shift_left = shift_and_flip_action(c, color, i_left, start)
     return c.get_row()
 
 
