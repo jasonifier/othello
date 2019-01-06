@@ -223,11 +223,15 @@ class Player(object):
         while not eligible_move:
             r = input('Enter row num to place piece: ')
             c = input('Enter col num to place piece: ')
-            move_coords = (int(r), int(c))
+            try:
+                move_coords = (int(r), int(c))
+            except (ValueError, TypeError):
+                print('Invalid input! Try again.')
+                continue
             if move_coords in flanks:
                 eligible_move = True
             else:
-                print('Select from possible flanks!')
+                print('Select from possible flanks please!')
         self.game_board.grid[int(r)][int(c)] = self.color
         cross_sections = self.game_board.get_cross_sections()
         for k, cross_section in cross_sections.items():
@@ -350,10 +354,3 @@ if __name__ == '__main__':
     p2 = Player(g, move_first=False)
     othello = Othello(g, p1, p2)
     othello.play()
-#    print()
-#    cross_sections = g.get_cross_sections()
-#    for key, section in cross_sections.items():
-#        print(key)
-#        print(len(section))
-#        print(section)
-#        print()

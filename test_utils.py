@@ -12,8 +12,8 @@ for k in row:
 row = copy(mod_row)
 print()
 
-print(str(find_flank_indices(row, 0)))
+print(str(find_flank_indices(row, 1)))
 print()
 x = input('Which index to use? ')
 
-print(' '.join([str(element) for element in flip_pieces(row, int(x), 0)]))
+print(' '.join([str(element) for element in flip_pieces(row, int(x), 1)]))

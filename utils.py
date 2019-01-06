@@ -51,7 +51,7 @@ def find_flank_indices(row, color):
             flanker = i
             if open_spot is None:
                 other = set_to_None(1)
-            elif (open_spot) and (other is None):
+            elif not (open_spot is None) and (other is None):
                 open_spot = set_to_None(1)
         elif (element != color) and (element in [0,1]):
             other = i
