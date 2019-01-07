@@ -26,9 +26,16 @@ class GameBoard(object):
         '''
         Method to print the current grid to the screen.
         '''
-        for row in self.grid:
-            row_str = ' '.join([str(element) for element in row])
-            print(row_str)
+        empty_str = ''
+        print('   ', end=empty_str)
+        for i in range(self.vdim):
+            label = '{0} | '.format(str(i))
+            print(label, end=empty_str)
+        print()
+        for i, row in enumerate(self.grid):
+            label = '{0}|'.format(str(i))
+            row_str = (' '*3).join([str(element) for element in row])
+            print(label, row_str, end='\n\n')
 
     def prepare(self):
         '''
@@ -329,7 +336,7 @@ class Othello(object):
                     pairs = [idx_to_pair[idx] for idx in flank_chances]
                     for pair in pairs:
                         flanks.add(pair)
-        print(list(flanks))
+        print(sorted(list(flanks)))
         return list(flanks)
 
     def switch_turn(self):
